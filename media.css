@@ -1,0 +1,27 @@
+@media screen and (min-width: 840px) {
+.intro {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+.headline h2 {
+  margin: 8vw 0 45px 5vw;
+}
+/*.intro-content {
+  width: 50%;
+}
+.headline-content {
+    width: 50%;
+}*/
+
+.intro-content p {
+  width: 80%;
+  margin: 0 10vw 0 30px;
+
+}
+
+.headline-content p {
+  width: 90%;
+  margin-left: 5vw;
+  margin-top: 0;
+}
