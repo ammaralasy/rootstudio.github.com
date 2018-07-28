@@ -132,7 +132,9 @@ border-top: solid 1px white;
 }
 .fixed-header {
   position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 2;
 }
 .header-container {
   padding-top: 30px;
@@ -143,25 +145,24 @@ border-top: solid 1px white;
 }
 .cover-bg {
   background-color: #f5db36;
+position: relative;
+top: 50px;
 }
 .cover-bg img {
   display: block;
   max-width: 100%;
-  height: 380px;
-  width: 400px;
-  margin: 0 auto;
+  max-height: 80%;
+  margin: auto;
+  z-index: 1;
 }
 .intro {
   display: flex;
   flex-direction:column;
-  /*line-height: 2rem;
-  margin: 0 55px;
-  letter-spacing: 1.5px;
-  word-spacing: 5px;*/
 }
 .headline h2 {
   color:  rgb(33, 94, 127);
   /*margin-bottom: 40px;*/
+  margin-top: 60px;
   margin-left: 7vw;
   font-family: assistant;
   font-weight: 800;

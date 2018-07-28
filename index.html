@@ -13,22 +13,22 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="animate.css">
   <link rel="stylesheet" href="media.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+  <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js">
   </script>
 </head>
 
 <body>
   <header class="fixed-header">
-  <div class="header-container">
-    <div class="logo"><img src="logo.svg" alt="ROOT STUDIO" /></div>
-    <!--This is Navigation button for mobile-->
-    <div class="ham-container">
-      <div class="ham-bar1"></div>
-      <div class="ham-bar2"></div>
-      <div class="ham-bar3"></div>
+    <div class="header-container">
+      <div class="logo"><img src="logo.svg" alt="ROOT STUDIO" /></div>
+      <!--This is Navigation button for mobile-->
+      <div class="ham-container">
+        <div class="ham-bar1"></div>
+        <div class="ham-bar2"></div>
+        <div class="ham-bar3"></div>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
   <!--This is navigation bar-->
   <nav>
     <div class="multiply">
@@ -43,25 +43,29 @@
       <li><a class="last-navbar" href="#">We're Hiring</a></li>
     </ul>
   </nav>
-  <div class="cover-bg">
-    <img src="bg-lg.gif" srcset="bg-sm.gif 700w, bg-lg.gif 1600w" alt="Giraffe chewing" />
-  </div>
-  <section>
-    <div class="headline">
-      <h2> Good morning<br>make yourself at home </h2>
-    </div>
-    <div class="intro">
-      <div class="headline-content">
-        <p>We’re a graphic and web design agency working with clients worldwide to deliver unforgettable projects that take established brands to new heights and launch ambitious start-ups towards their goals. </p>
+  <!--<div class="cover-intro">-->
+    <section>
+      <div class="cover-bg">
+        <img src="bg-sm.gif" srcset="bg-sm.gif 374w, bg-lg.gif 1600w" sizes="(max-width: 600px) 80vw, 80vw" alt="Giraffe chewing" />
       </div>
-      <div class="intro-content">
-        <p>Our team of award winning designers, developers and problem solvers have brought energy and personality to brands of all shapes and sizes over the last 10 years. From branding to print, web design and illustration; our diverse services allow a
-          single point of contact for all your design needs. </p>
-        <p>We like to build close relationships with our clients, priding ourselves on offering the very best customer service with honesty and reliability as valued in our studio as creativity and innovation.</p>
+    </section>
+    <section class="main-intro">
+      <div class="headline">
+        <h2> Good morning<br>make yourself at home </h2>
+      </div>
+      <div class="intro">
+        <div class="headline-content">
+          <p>We’re a graphic and web design agency working with clients worldwide to deliver unforgettable projects that take established brands to new heights and launch ambitious start-ups towards their goals. </p>
+        </div>
+        <div class="intro-content">
+          <p>Our team of award winning designers, developers and problem solvers have brought energy and personality to brands of all shapes and sizes over the last 10 years. From branding to print, web design and illustration; our diverse services allow
+            a single point of contact for all your design needs. </p>
+          <p>We like to build close relationships with our clients, priding ourselves on offering the very best customer service with honesty and reliability as valued in our studio as creativity and innovation.</p>
 
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  <!--</div>-->
   <script>
     $("document").ready(function() {
       $(".ham-container").click(function() {
