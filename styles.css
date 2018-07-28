@@ -144,9 +144,11 @@ border-top: solid 1px white;
   align-items: center;
 }
 .cover-bg {
-  background-color: #f5db36;
-position: relative;
+background-color: #f5db36;
+width: 100%;
+/*position: relative;
 top: 50px;
+z-index: 4;*/
 }
 .cover-bg img {
   display: block;

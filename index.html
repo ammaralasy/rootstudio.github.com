@@ -44,10 +44,11 @@
     </ul>
   </nav>
   <!--<div class="cover-intro">-->
-    <section>
-      <div class="cover-bg">
-        <img src="bg-sm.gif" srcset="bg-sm.gif 374w, bg-lg.gif 1600w" sizes="(max-width: 600px) 80vw, 80vw" alt="Giraffe chewing" />
-      </div>
+    <section class="cover-bg">
+      <picture>
+        <source srcset="bg-lg.gif" media="(min-width: 700px)">
+          <img src="bg-sm.gif" alt="Giraffe chewing">
+      </picture>
     </section>
     <section class="main-intro">
       <div class="headline">
