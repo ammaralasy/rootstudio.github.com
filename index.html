@@ -20,7 +20,7 @@
 <body>
   <header class="fixed-header">
     <div class="header-container">
-      <div class="logo"><img src="logo.svg" alt="ROOT STUDIO" /></div>
+      <div class="logo"><img src="assets/logo.svg" alt="ROOT STUDIO" /></div>
       <!--This is Navigation button for mobile-->
       <div class="ham-container">
         <div class="ham-bar1"></div>
@@ -43,30 +43,59 @@
       <li><a class="last-navbar" href="#">We're Hiring</a></li>
     </ul>
   </nav>
-  <!--<div class="cover-intro">-->
-    <section class="cover-bg">
-      <picture>
-        <source srcset="bg-lg.gif" media="(min-width: 700px)">
-          <img src="bg-sm.gif" alt="Giraffe chewing">
-      </picture>
-    </section>
-    <section class="main-intro">
-      <div class="headline">
-        <h2> Good morning<br>make yourself at home </h2>
+  <section class="cover-bg">
+    <picture>
+      <source srcset="assets/bg-lg.gif" media="(min-width: 700px)">
+      <img src="assets/bg-sm.gif" alt="Giraffe chewing">
+    </picture>
+  </section>
+  <section class="main-intro">
+    <div class="headline">
+      <h2> Good morning<br>make yourself at home </h2>
+    </div>
+    <div class="intro">
+      <div class="headline-content">
+        <p>We’re a graphic and web design agency working with clients worldwide to deliver unforgettable projects that take established brands to new heights and launch ambitious start-ups towards their goals. </p>
       </div>
-      <div class="intro">
-        <div class="headline-content">
-          <p>We’re a graphic and web design agency working with clients worldwide to deliver unforgettable projects that take established brands to new heights and launch ambitious start-ups towards their goals. </p>
-        </div>
-        <div class="intro-content">
-          <p>Our team of award winning designers, developers and problem solvers have brought energy and personality to brands of all shapes and sizes over the last 10 years. From branding to print, web design and illustration; our diverse services allow
-            a single point of contact for all your design needs. </p>
-          <p>We like to build close relationships with our clients, priding ourselves on offering the very best customer service with honesty and reliability as valued in our studio as creativity and innovation.</p>
+      <div class="intro-content">
+        <p>Our team of award winning designers, developers and problem solvers have brought energy and personality to brands of all shapes and sizes over the last 10 years. From branding to print, web design and illustration; our diverse services allow a
+          single point of contact for all your design needs. </p>
+        <p>We like to build close relationships with our clients, priding ourselves on offering the very best customer service with honesty and reliability as valued in our studio as creativity and innovation.</p>
 
-        </div>
       </div>
-    </section>
-  <!--</div>-->
+    </div>
+  </section>
+  <section class="gallery">
+    <div class="burrito">
+      <div>
+        <a href="#">
+          <picture>
+            <source media="(min-width: 1024px)" srcset="assets/thumbnails-mission-burrito-02-1-w843h530.jpg">
+            <img src="assets/thumbnails-mission-burrito-02-1-w400h265.jpg">
+          </picture>
+      </div>
+      <div class="burrito-text">
+        <h1>Mission Burrito</h1>
+        <p>'From Mexico to the UK via San Francisco' we’ve been working with this growing independent fast-food chain for many years and loving every moment<span>&#x2192;</span></p>
+      </div>
+      </a>
+    </div>
+    <div class="burrito">
+      <div>
+        <a href="#">
+          <picture>
+            <source media="(min-width: 1024px)" srcset="assets/thumbnails-chester-zoo-03-1-w417h530.jpg">
+            <img src="assets/thumbnails-chester-zoo-03-1-w400h265.jpg">
+          </picture>
+      </div>
+      <div class="burrito-text text-bg">
+        <h1>Chester Zoo</h1>
+        <p> We've worked with this amazing organisation on interpretation panels, illustrations and design for print for projects at home and across the world<span>&#x2192;</span></p>
+      </div>
+      </a>
+    </div>
+    </div>
+  </section>
   <script>
     $("document").ready(function() {
       $(".ham-container").click(function() {

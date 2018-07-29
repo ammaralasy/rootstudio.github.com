@@ -28,6 +28,8 @@
 }
 * {
   box-sizing: border-box;
+  text-decoration: none;
+  color: white;
 }
 .logo {
 width: 180px;
@@ -52,9 +54,7 @@ margin-left: 5%;
 
 .navbar a {
   animation: popup 1s linear both;
-  text-decoration: none;
   font-family: nordica;
-  color: white;
   font-size: 2.2rem;
   letter-spacing: 0.25rem;
 
@@ -82,7 +82,7 @@ margin-left: 5%;
 }
 .multiply {
   display: none;
-  position: absolute;
+  position: fixed;
     right: 15px;
     top: 20px;
   width: 50px;
@@ -163,7 +163,6 @@ z-index: 4;*/
 }
 .headline h2 {
   color:  rgb(33, 94, 127);
-  /*margin-bottom: 40px;*/
   margin-top: 60px;
   margin-left: 7vw;
   font-family: assistant;
@@ -187,6 +186,51 @@ z-index: 4;*/
   font-size: 18px;
   line-height: 30px;
 }
+.intro-content {
+  margin-bottom: 50px;
+}
 .intro-content p:first-child {
   margin-bottom: 30px;
+}
+/*CSS styles for Galleries*/
+
+.gallery .burrito img {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+.burrito-text {
+  background-color: #e94a4f;
+  margin: 0 auto 20px auto;
+  width: 90%;
+  height: 55%;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+.burrito-text > * {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.5rem;
+}
+.burrito-text p {
+  font-family: roboto;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 2rem;
+}
+.burrito-text h1 {
+  font-family: assistant;
+  font-weight: 200;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.burrito-text span {
+  font-size: 30px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+.text-bg {
+  background-color: #41a5e3;
+
 }
